@@ -1,0 +1,283 @@
+/* Main section */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+/* Hero section styling */
+.hero {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.hero-skills > h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.hero-skills {
+    text-align: center;
+}
+
+.hero-buttons {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-buttons button {
+    margin: 0 1em;
+    background-color: #0317d2;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/* About section styling */
+.about {
+    margin: 4em;
+    padding: 4em;
+    display: flex;
+    align-items: center;
+    margin: 10em auto;
+    width: 80%;
+}
+
+.about img {
+    width: 30vw;
+    height: 40vw;
+    display: block;
+}
+
+.about-text {
+    margin-left: 2em;
+    width: 50%;
+}
+
+/* Project section styling */
+.projects, .contact > h2 {
+    margin-left: 1.7em;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4em;
+}
+
+.project-images img {
+    width: 40vw;
+    height: 35vw;
+    display: block;
+    margin-left: .5em;
+    padding-right: 1em;
+}
+
+/* Technical skills section styling */
+
+.skills, .experience {
+    display: block;
+    margin: 10em 4.5em;   
+    width: 80%;
+}
+
+/* Box area for all icons */
+.skill-icons {
+    display: flex;
+    margin-left: -3em;
+}
+
+.icons {
+    width: 6vw;
+    padding-bottom: 1em;
+}
+
+.icon_column {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box
+    ;
+}
+
+.icon_first_column, .icon_second_column,
+.icon_third_column, .icon_fourth_column {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2em;
+}
+
+.icon_second_column{
+    margin-left: 4em;
+}
+
+.icon_third_column {
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: -1em;
+}
+
+.icon_fourth_column {
+    align-items: flex-end;
+}
+
+
+/* Column top icon Positioning */
+
+.html, .javascript, .passport{
+    margin-top: -2em;
+}
+
+/* Individual icon positioning and size */
+
+.css {
+    margin-right: -3em;
+}
+
+.jest {
+    margin-right: 3em;
+}
+
+.axios {
+    margin-top: -1.4em;
+    margin-right: -3em;
+    width: 8vw;
+}
+
+.mongoose {
+    margin-top: -4em;
+    margin-right: -1em;
+    width: 12vw;
+}
+
+.passport {
+    width: 19vw;
+}
+
+.node {
+    width: 10vw;
+}
+
+.mongo {
+    width: 20vw;
+}
+
+/* Experience section */
+
+.experience, .contact {
+    margin-top:6em;
+}
+
+.experience-section {
+    display: flex;
+}
+
+.experience-text {
+    margin-left: 2em;
+    width: 50%;
+}
+.text2 {
+    margin-top: -2em;
+ }
+
+ /* Contact Section */
+
+ .contact {
+    margin-bottom: 120em;
+ }
+
+ .contact > h2 {
+    margin-left: 1.9em;
+ }
+
+ .contact-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4.7em;
+ }
+
+ .contact-header-right {
+    margin-top: 1.5em;
+ }
+
+ .contact-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 4.7em;
+ }
+
+ .contact-text > form {
+    margin: -9em 25em;
+ }
+
+.contact-text > form > h3{
+    text-align: end;
+    margin: 0 -1.5em -1.5em 0;
+    font-size: 1.5em;
+}
+
+form {
+    position: relative;
+    /* margin-left: 100em; */
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+.form-row-1 {
+    display: flex;
+    height: 3em;
+    margin-top: 3em;
+    /* width: 100vw; */
+}
+
+.form-row-1 input {
+    font-size: 1em;
+    padding-left: 1.5em;
+    margin: .3em;
+}
+
+.form-row-2 {
+    /* display: flex; */
+    height: 210em;
+    width: 230px;
+    flex-direction: column;
+    /* align-items: right; */
+    font-size: 1em;
+    /* padding-left: 1.5em; */
+    padding: .4em;
+}
+
+.form-row-2 > textarea {
+    height: 4em;
+    width: 192%;
+    margin-left: -6em;
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+
+.form-row-2 > input {
+    height: 3em;
+    width: 202%;
+    margin: .5em 0 0 -7.3em;
+    font-size: 1em;
+    /* padding-left: 1em; */
+}

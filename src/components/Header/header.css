@@ -1,0 +1,21 @@
+.header {
+    margin: 4em 6em 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100px;  
+}
+
+.header-section-left {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header-icons {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
